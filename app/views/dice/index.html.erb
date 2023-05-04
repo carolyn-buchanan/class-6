@@ -1,0 +1,24 @@
+<h1>DICE</h1>
+
+<% 
+  die1 = rand(1..6)
+  die2 = rand(1..6)
+  total = die1 + die2
+%>
+
+<p>
+<img src="/images/dice/<%=die1%>.svg" alt="">
+<img src="/images/dice/<%=die2%>.svg" alt="">
+
+</p>
+
+<p>The total is <%=total%> </p>
+
+<li>
+<a href="/dice">Roll again!</a>
+<a href="/companies">See companies here!</a>
+</li>
+
+
+
+<!----when its internal you don't have to add a url---->
